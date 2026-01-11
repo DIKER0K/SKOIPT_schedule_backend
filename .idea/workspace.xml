@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67cc7b63-1c76-4129-a09b-84a7b6b80507" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env_example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/schedule_backend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/v1/endpoints/teachers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/v1/router.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/db/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/teachers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/repositories/teachers_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/teachers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/teachers_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/datetime.py" afterDir="false" />
+    <list default="true" id="67cc7b63-1c76-4129-a09b-84a7b6b80507" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/schedule_backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/schedule_backend.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +68,27 @@
       <option name="presentableId" value="Default" />
       <updated>1766956224740</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1766961730610</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1766961730610</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <option name="closed" value="true" />
+      <created>1766961823965</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766961823965</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>

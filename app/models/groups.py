@@ -1,17 +1,19 @@
-from typing import List, Optional
-from pydantic import BaseModel, Field
+import datetime
+from typing import Optional
 from bson import ObjectId
-from datetime import datetime
+from pydantic import BaseModel, Field
+
 from app.utils.datetime import now
 
-class TeacherDB(BaseModel):
+class GroupDB(BaseModel):
     id: ObjectId = Field(default_factory=ObjectId, alias="_id")
     name: str
-    subject: List[ObjectId] = Field(default_factory=list)
-    email: Optional[str] = None
-    phone: Optional[str] = None
+    specialty: str
+    year_start: int
+    currator_id: Optional[ObjectId] = None
+    student_count: int = 0
     is_active: bool = True
     created_at: datetime = Field(default_factory=now)
-
+    
     class Config:
         arbitrary_types_allowed = True
